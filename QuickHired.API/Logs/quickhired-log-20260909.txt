@@ -1,0 +1,135 @@
+2026-09-09 14:46:33.991 +05:00 [WRN] Increasing the MaxRequestBodySize conflicts with the max value for IIS limit maxAllowedContentLength. HTTP requests that have a content length greater than maxAllowedContentLength will still be rejected by IIS. You can disable the limit by either removing or setting the maxAllowedContentLength value to a higher limit.
+2026-09-09 14:46:34.775 +05:00 [INF] User profile is available. Using 'C:\Users\Ahsan Anees\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-09 14:46:34.966 +05:00 [INF] Daily Digest scheduled for: 2026-09-09 21:00:00
+2026-09-09 14:46:35.231 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - null null
+2026-09-09 14:46:35.407 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-09 14:46:35.408 +05:00 [INF] Hosting environment: Development
+2026-09-09 14:46:35.408 +05:00 [INF] Content root path: F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API
+2026-09-09 14:46:36.553 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - 200 null text/html;charset=utf-8 1348.3922ms
+2026-09-09 14:46:36.565 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-09 14:46:36.601 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 34.5294ms
+2026-09-09 14:46:36.617 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - null null
+2026-09-09 14:46:36.861 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - 200 null text/javascript; charset=UTF-8 255.6385ms
+2026-09-09 14:46:37.190 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - null null
+2026-09-09 14:46:37.411 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 221.9117ms
+2026-09-09 14:46:55.963 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - null null
+2026-09-09 14:46:56.060 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:46:56.069 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - 204 null null 105.9799ms
+2026-09-09 14:46:56.081 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-09-09 14:46:56.114 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:46:56.271 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Free - null null
+2026-09-09 14:46:56.393 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:46:56.404 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Pro - null null
+2026-09-09 14:46:56.404 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:46:56.475 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/ProAnnual - null null
+2026-09-09 14:46:56.475 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:46:56.479 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Standard - null null
+2026-09-09 14:46:56.479 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:46:58.935 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-09-09 14:46:58.935 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-09-09 14:46:58.935 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-09-09 14:46:58.935 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-09-09 14:46:59.032 +05:00 [INF] Route matched with {action = "GetPlanFeatures", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPlanFeatures(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-09-09 14:46:59.032 +05:00 [INF] Route matched with {action = "GetPlanFeatures", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPlanFeatures(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-09-09 14:46:59.032 +05:00 [INF] Route matched with {action = "GetPlanFeatures", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPlanFeatures(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-09-09 14:46:59.032 +05:00 [INF] Route matched with {action = "GetPlanFeatures", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPlanFeatures(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-09-09 14:46:59.133 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '20/05/2026 6:14:23 pm', Current time (UTC): '09/09/2026 9:46:59 am'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-09-09 14:47:00.098 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '20/05/2026 6:14:23 pm', Current time (UTC): '09/09/2026 9:46:59 am'.
+2026-09-09 14:47:00.113 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-09-09 14:47:00.122 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-09-09 14:47:00.138 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 401 null null 4057.0115ms
+2026-09-09 14:47:00.139 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/StandardAnnual - null null
+2026-09-09 14:47:00.139 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:47:00.139 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-09-09 14:47:00.139 +05:00 [INF] Route matched with {action = "GetPlanFeatures", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPlanFeatures(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-09-09 14:47:01.981 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2026-09-09 14:47:02.050 +05:00 [WRN] No store type was specified for the decimal property 'Percentage' on entity type 'PromoCodes'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-09-09 14:47:02.051 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Subscriptions'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-09-09 14:47:02.396 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-09 14:47:02.397 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-09 14:47:02.396 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-09 14:47:02.396 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-09 14:47:02.396 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-09 14:47:10.642 +05:00 [INF] Executed DbCommand (128ms) [Parameters=[@__planName_0='Standard' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-09-09 14:47:10.643 +05:00 [INF] Executed DbCommand (220ms) [Parameters=[@__planName_0='ProAnnual' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-09-09 14:47:10.642 +05:00 [INF] Executed DbCommand (236ms) [Parameters=[@__planName_0='StandardAnnual' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-09-09 14:47:10.642 +05:00 [INF] Executed DbCommand (169ms) [Parameters=[@__planName_0='Pro' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-09-09 14:47:10.648 +05:00 [INF] Executed DbCommand (273ms) [Parameters=[@__planName_0='Free' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-09-09 14:47:10.704 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-09-09 14:47:10.726 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-09-09 14:47:10.728 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-09-09 14:47:10.740 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-09-09 14:47:10.745 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API) in 11709.8725ms
+2026-09-09 14:47:10.745 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API) in 11700.258ms
+2026-09-09 14:47:10.745 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API) in 11699.9617ms
+2026-09-09 14:47:10.745 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-09-09 14:47:10.746 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-09-09 14:47:10.746 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API) in 10573.2929ms
+2026-09-09 14:47:10.746 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-09-09 14:47:10.746 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-09-09 14:47:10.747 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-09-09 14:47:10.763 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API) in 11728.9842ms
+2026-09-09 14:47:10.764 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-09-09 14:47:10.771 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/ProAnnual - 404 null text/plain; charset=utf-8 14296.1352ms
+2026-09-09 14:47:10.771 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Standard - 404 null text/plain; charset=utf-8 14292.0323ms
+2026-09-09 14:47:10.771 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Free - 404 null text/plain; charset=utf-8 14500.6593ms
+2026-09-09 14:47:10.777 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/StandardAnnual - 404 null text/plain; charset=utf-8 10638.4568ms
+2026-09-09 14:47:10.777 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Pro - 404 null text/plain; charset=utf-8 14373.0672ms
+2026-09-09 14:47:14.895 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - null null
+2026-09-09 14:47:14.895 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:47:14.896 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - 204 null null 0.9773ms
+2026-09-09 14:47:14.899 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-09-09 14:47:14.900 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:47:14.903 +05:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '20/05/2026 6:14:23 pm', Current time (UTC): '09/09/2026 9:47:14 am'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-09-09 14:47:14.906 +05:00 [INF] Bearer was not authenticated. Failure message: IDX10223: Lifetime validation failed. The token is expired. ValidTo (UTC): '20/05/2026 6:14:23 pm', Current time (UTC): '09/09/2026 9:47:14 am'.
+2026-09-09 14:47:14.909 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-09-09 14:47:14.909 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-09-09 14:47:14.910 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 401 null null 10.7024ms
+2026-09-09 14:48:33.634 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster/emailexists?email=hasaanahmad1818@gmail.com - null null
+2026-09-09 14:48:33.638 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:48:33.638 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.CheckEmailExitsAsync (QuickHired.API)'
+2026-09-09 14:48:33.661 +05:00 [INF] Route matched with {action = "CheckEmailExits", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Boolean] CheckEmailExitsAsync(System.String) on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-09-09 14:48:34.431 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-09 14:48:34.558 +05:00 [INF] Executed DbCommand (89ms) [Parameters=[@__normalizedEmail_0='HASAANAHMAD1818@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-09-09 14:48:34.564 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Boolean'.
+2026-09-09 14:48:34.575 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.CheckEmailExitsAsync (QuickHired.API) in 913.8364ms
+2026-09-09 14:48:34.575 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.CheckEmailExitsAsync (QuickHired.API)'
+2026-09-09 14:48:34.576 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster/emailexists?email=hasaanahmad1818@gmail.com - 200 null application/json; charset=utf-8 941.6211ms
+2026-09-09 14:48:48.546 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/register - null null
+2026-09-09 14:48:48.559 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:48:48.559 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/register - 204 null null 13.6415ms
+2026-09-09 14:48:48.565 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/register - application/json 455
+2026-09-09 14:48:48.565 +05:00 [INF] CORS policy execution successful.
+2026-09-09 14:48:48.565 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.Register (QuickHired.API)'
+2026-09-09 14:48:48.578 +05:00 [INF] Route matched with {action = "Register", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] Register(QuickHired.API.DTOs.RegisterDTO) on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).

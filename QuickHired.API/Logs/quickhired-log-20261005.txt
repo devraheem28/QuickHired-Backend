@@ -1,0 +1,479 @@
+2026-10-05 22:21:26.380 +05:00 [INF] User profile is available. Using 'C:\Users\Usama Nasir\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-10-05 22:21:26.553 +05:00 [INF] Daily Digest scheduled for: 2026-10-06 21:00:00
+2026-10-05 22:21:26.794 +05:00 [INF] Now listening on: https://localhost:44303
+2026-10-05 22:21:26.794 +05:00 [INF] Now listening on: http://localhost:5185
+2026-10-05 22:21:26.878 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-10-05 22:21:26.879 +05:00 [INF] Hosting environment: Development
+2026-10-05 22:21:26.879 +05:00 [INF] Content root path: C:\FYP\QuickHired_Backend\QuickHired\QuickHired.API
+2026-10-05 22:21:28.140 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger - null null
+2026-10-05 22:21:28.327 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger - 301 0 null 198.9929ms
+2026-10-05 22:21:28.337 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - null null
+2026-10-05 22:21:28.409 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - 200 null text/html;charset=utf-8 72.2301ms
+2026-10-05 22:21:28.422 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui.css - null null
+2026-10-05 22:21:28.425 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - null null
+2026-10-05 22:21:28.426 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - null null
+2026-10-05 22:21:28.425 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui-standalone-preset.js - null null
+2026-10-05 22:21:28.425 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui-bundle.js - null null
+2026-10-05 22:21:28.433 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - 200 16513 application/javascript; charset=utf-8 7.0847ms
+2026-10-05 22:21:28.476 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-10-05 22:21:28.477 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-10-05 22:21:28.480 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui.css - 200 152034 text/css 58.9657ms
+2026-10-05 22:21:28.480 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 54.5112ms
+2026-10-05 22:21:28.526 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-10-05 22:21:28.526 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 100.8547ms
+2026-10-05 22:21:28.547 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - 200 null text/javascript; charset=UTF-8 121.247ms
+2026-10-05 22:21:28.705 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - null null
+2026-10-05 22:21:28.827 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 124.4089ms
+2026-10-05 22:24:02.169 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:02.209 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:02.211 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - 204 null null 42.6079ms
+2026-10-05 22:24:02.216 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:02.220 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:02.242 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Free - null null
+2026-10-05 22:24:02.242 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Standard - null null
+2026-10-05 22:24:02.243 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/StandardAnnual - null null
+2026-10-05 22:24:02.244 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:02.244 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:02.244 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:02.244 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Pro - null null
+2026-10-05 22:24:02.247 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:02.252 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/ProAnnual - null null
+2026-10-05 22:24:02.254 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:02.324 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-10-05 22:24:02.324 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-10-05 22:24:02.324 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-10-05 22:24:02.324 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-10-05 22:24:02.324 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-10-05 22:24:02.381 +05:00 [INF] Route matched with {action = "GetPlanFeatures", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPlanFeatures(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-10-05 22:24:02.381 +05:00 [INF] Route matched with {action = "GetPlanFeatures", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPlanFeatures(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-10-05 22:24:02.381 +05:00 [INF] Route matched with {action = "GetPlanFeatures", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPlanFeatures(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-10-05 22:24:02.381 +05:00 [INF] Route matched with {action = "GetPlanFeatures", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPlanFeatures(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-10-05 22:24:02.381 +05:00 [INF] Route matched with {action = "GetPlanFeatures", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetPlanFeatures(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-10-05 22:24:02.420 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:02.424 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 22:24:03.447 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2026-10-05 22:24:03.480 +05:00 [WRN] No store type was specified for the decimal property 'Percentage' on entity type 'PromoCodes'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-10-05 22:24:03.480 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Subscriptions'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-10-05 22:24:03.678 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:03.678 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:03.678 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:03.678 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:03.678 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:03.678 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:04.544 +05:00 [INF] Executed DbCommand (82ms) [Parameters=[@__planName_0='Free' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-10-05 22:24:04.544 +05:00 [INF] Executed DbCommand (78ms) [Parameters=[@__planName_0='StandardAnnual' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-10-05 22:24:04.544 +05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__planName_0='Standard' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-10-05 22:24:04.544 +05:00 [INF] Executed DbCommand (98ms) [Parameters=[@__normalizedEmail_0='ABDULRAHEEMNASIRFAROOQI24@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-10-05 22:24:04.544 +05:00 [INF] Executed DbCommand (88ms) [Parameters=[@__planName_0='ProAnnual' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-10-05 22:24:04.544 +05:00 [INF] Executed DbCommand (94ms) [Parameters=[@__planName_0='Pro' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-10-05 22:24:04.594 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-10-05 22:24:04.594 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-10-05 22:24:04.594 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-10-05 22:24:04.594 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-10-05 22:24:04.594 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-10-05 22:24:04.609 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API) in 2218.6583ms
+2026-10-05 22:24:04.609 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API) in 2218.6427ms
+2026-10-05 22:24:04.609 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API) in 2221.3751ms
+2026-10-05 22:24:04.610 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API) in 2219.1642ms
+2026-10-05 22:24:04.610 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API) in 2222.9715ms
+2026-10-05 22:24:04.612 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-10-05 22:24:04.612 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-10-05 22:24:04.612 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-10-05 22:24:04.612 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-10-05 22:24:04.613 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetPlanFeatures (QuickHired.API)'
+2026-10-05 22:24:04.624 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Standard - 404 null text/plain; charset=utf-8 2382.0576ms
+2026-10-05 22:24:04.624 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/StandardAnnual - 404 null text/plain; charset=utf-8 2381.5198ms
+2026-10-05 22:24:04.624 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Pro - 404 null text/plain; charset=utf-8 2379.9781ms
+2026-10-05 22:24:04.624 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/ProAnnual - 404 null text/plain; charset=utf-8 2372.322ms
+2026-10-05 22:24:04.624 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/get-plan-features/Free - 404 null text/plain; charset=utf-8 2382.1487ms
+2026-10-05 22:24:04.679 +05:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-10-05 22:24:04.712 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-10-05 22:24:04.713 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-05 22:24:04.730 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 2305.7716ms
+2026-10-05 22:24:04.730 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:04.731 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 200 null application/json; charset=utf-8 2515.009ms
+2026-10-05 22:24:04.736 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/language-preference/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 22:24:04.738 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:04.738 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/language-preference/b38417ac-74ed-4bdd-9060-4e610023ff1c - 204 null null 3.6042ms
+2026-10-05 22:24:04.741 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster/language-preference/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 22:24:04.746 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:04.748 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster/language-preference/b38417ac-74ed-4bdd-9060-4e610023ff1c - 404 0 null 7.5388ms
+2026-10-05 22:24:04.749 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44303/api/SecurityMaster/language-preference/b38417ac-74ed-4bdd-9060-4e610023ff1c, Response status code: 404
+2026-10-05 22:24:04.757 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - null null
+2026-10-05 22:24:04.757 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:04.757 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - 204 null null 0.9378ms
+2026-10-05 22:24:04.761 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - application/json 69
+2026-10-05 22:24:04.762 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:04.763 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - 404 0 null 1.3532ms
+2026-10-05 22:24:04.763 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:44303/api/SecurityMaster/save-language-preference, Response status code: 404
+2026-10-05 22:24:05.887 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - application/json 69
+2026-10-05 22:24:05.888 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:05.888 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - 404 0 null 1.7396ms
+2026-10-05 22:24:05.888 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:44303/api/SecurityMaster/save-language-preference, Response status code: 404
+2026-10-05 22:24:17.064 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/google-login - null null
+2026-10-05 22:24:17.065 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:17.066 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/google-login - 204 null null 1.9163ms
+2026-10-05 22:24:17.074 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/google-login - application/json 1239
+2026-10-05 22:24:17.074 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:17.074 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GoogleLogin (QuickHired.API)'
+2026-10-05 22:24:17.084 +05:00 [INF] Route matched with {action = "GoogleLogin", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(GoogleLoginRequest) on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 22:24:17.849 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:17.851 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='ABDULRAHEEMNASIRFAROOQI24@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-10-05 22:24:17.853 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-10-05 22:24:17.854 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType47`3[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-10-05 22:24:17.858 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GoogleLogin (QuickHired.API) in 772.9732ms
+2026-10-05 22:24:17.858 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GoogleLogin (QuickHired.API)'
+2026-10-05 22:24:17.858 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/SecurityMaster/google-login - 200 null application/json; charset=utf-8 784.6519ms
+2026-10-05 22:24:18.012 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:18.012 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:18.012 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - 204 null null 0.4848ms
+2026-10-05 22:24:18.016 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:18.016 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:18.018 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:18.018 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 22:24:18.033 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:18.036 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='ABDULRAHEEMNASIRFAROOQI24@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-10-05 22:24:18.040 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-10-05 22:24:18.042 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-10-05 22:24:18.043 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-05 22:24:18.043 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 24.6707ms
+2026-10-05 22:24:18.043 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:18.044 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 200 null application/json; charset=utf-8 27.8194ms
+2026-10-05 22:24:18.767 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:18.767 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:18.770 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:18.770 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 22:24:18.776 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:18.784 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__normalizedEmail_0='ABDULRAHEEMNASIRFAROOQI24@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-10-05 22:24:18.788 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-10-05 22:24:18.788 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-10-05 22:24:18.789 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-05 22:24:18.789 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 18.7375ms
+2026-10-05 22:24:18.789 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:18.789 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 200 null application/json; charset=utf-8 22.3283ms
+2026-10-05 22:24:18.922 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:18.922 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:18.923 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:18.923 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 22:24:18.926 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:18.928 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='ABDULRAHEEMNASIRFAROOQI24@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-10-05 22:24:18.932 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-10-05 22:24:18.933 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-10-05 22:24:18.933 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-05 22:24:18.933 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 10.4569ms
+2026-10-05 22:24:18.933 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:18.933 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 200 null application/json; charset=utf-8 11.7907ms
+2026-10-05 22:24:19.214 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/language-preference/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 22:24:19.214 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.214 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/language-preference/b38417ac-74ed-4bdd-9060-4e610023ff1c - 204 null null 0.7803ms
+2026-10-05 22:24:19.217 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster/language-preference/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 22:24:19.217 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.218 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster/language-preference/b38417ac-74ed-4bdd-9060-4e610023ff1c - 404 0 null 1.071ms
+2026-10-05 22:24:19.218 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44303/api/SecurityMaster/language-preference/b38417ac-74ed-4bdd-9060-4e610023ff1c, Response status code: 404
+2026-10-05 22:24:19.350 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - null null
+2026-10-05 22:24:19.350 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.350 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - 204 null null 0.5133ms
+2026-10-05 22:24:19.353 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - application/json 69
+2026-10-05 22:24:19.353 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.353 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - 404 0 null 1.0361ms
+2026-10-05 22:24:19.353 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:44303/api/SecurityMaster/save-language-preference, Response status code: 404
+2026-10-05 22:24:19.426 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - application/json 69
+2026-10-05 22:24:19.427 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.427 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - 404 0 null 1.2804ms
+2026-10-05 22:24:19.427 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:44303/api/SecurityMaster/save-language-preference, Response status code: 404
+2026-10-05 22:24:19.433 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/user-plan/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 22:24:19.436 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.436 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API)'
+2026-10-05 22:24:19.439 +05:00 [INF] Route matched with {action = "GetUserSubscriptionPlan", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserSubscriptionPlan(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-10-05 22:24:19.444 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:19.462 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CancellationReason], [u].[CancelledDate], [u].[CreatedAt], [u].[CustomerId], [u].[PlanName], [u].[Status], [u].[SubscriptionKey], [u].[UserId]
+FROM [UserSubscriptions] AS [u]
+WHERE [u].[UserId] = @__userId_0
+2026-10-05 22:24:19.471 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__planName_0='Free' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-10-05 22:24:19.472 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-10-05 22:24:19.472 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API) in 32.5572ms
+2026-10-05 22:24:19.472 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API)'
+2026-10-05 22:24:19.472 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/user-plan/b38417ac-74ed-4bdd-9060-4e610023ff1c - 404 null text/plain; charset=utf-8 40.0907ms
+2026-10-05 22:24:19.521 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - application/json 69
+2026-10-05 22:24:19.522 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.522 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - 404 0 null 0.9481ms
+2026-10-05 22:24:19.522 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:44303/api/SecurityMaster/save-language-preference, Response status code: 404
+2026-10-05 22:24:19.920 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:19.921 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.921 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:19.921 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 22:24:19.924 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:19.925 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='ABDULRAHEEMNASIRFAROOQI24@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-10-05 22:24:19.927 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-10-05 22:24:19.927 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-10-05 22:24:19.927 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-05 22:24:19.928 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 6.5346ms
+2026-10-05 22:24:19.928 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:19.928 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 200 null application/json; charset=utf-8 7.8206ms
+2026-10-05 22:24:19.931 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster/get-user-plan/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 22:24:19.931 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/GetUserProfileImage/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 22:24:19.932 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/InterviewReports/GetTheme/abdulraheemnasirfarooqi24@gmail.com - null null
+2026-10-05 22:24:19.932 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.932 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.932 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/GetUserProfileImage/b38417ac-74ed-4bdd-9060-4e610023ff1c - 204 null null 0.8466ms
+2026-10-05 22:24:19.932 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.932 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetUserPlan (QuickHired.API)'
+2026-10-05 22:24:19.932 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API)'
+2026-10-05 22:24:19.935 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster/GetUserProfileImage/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 22:24:19.935 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.935 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetUserProfileImage (QuickHired.API)'
+2026-10-05 22:24:19.936 +05:00 [INF] Route matched with {action = "GetTheme", controller = "InterviewReports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTheme(System.String) on controller QuickHired.API.Controllers.InterviewReportsController (QuickHired.API).
+2026-10-05 22:24:19.937 +05:00 [INF] Route matched with {action = "GetUserPlan", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserPlan(System.String) on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 22:24:19.938 +05:00 [INF] Route matched with {action = "GetUserProfileImage", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserProfileImage(System.String) on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 22:24:19.940 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:19.941 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:19.946 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:19.950 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__email_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CancellationReason], [u].[CancelledDate], [u].[CreatedAt], [u].[CustomerId], [u].[PlanName], [u].[Status], [u].[SubscriptionKey], [u].[UserId]
+FROM [UserSubscriptions] AS [u]
+WHERE [u].[UserId] = @__email_0
+ORDER BY [u].[CreatedAt] DESC
+2026-10-05 22:24:19.951 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType50`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-10-05 22:24:19.953 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetUserPlan (QuickHired.API) in 15.8255ms
+2026-10-05 22:24:19.953 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetUserPlan (QuickHired.API)'
+2026-10-05 22:24:19.953 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster/get-user-plan/b38417ac-74ed-4bdd-9060-4e610023ff1c - 200 null application/json; charset=utf-8 21.8752ms
+2026-10-05 22:24:19.958 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[Id] = @__p_0
+2026-10-05 22:24:19.958 +05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__email_0='abdulraheemnasirfarooqi24@gmail.com' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[Theme]
+FROM [UserThemePreference] AS [u]
+WHERE [u].[Email] = @__email_0
+ORDER BY [u].[CreatedAt] DESC
+2026-10-05 22:24:19.961 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-10-05 22:24:19.961 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType51`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-10-05 22:24:19.961 +05:00 [INF] Executed action QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API) in 24.2214ms
+2026-10-05 22:24:19.961 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API)'
+2026-10-05 22:24:19.961 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/InterviewReports/GetTheme/abdulraheemnasirfarooqi24@gmail.com - 200 null text/plain; charset=utf-8 29.3558ms
+2026-10-05 22:24:19.962 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetUserProfileImage (QuickHired.API) in 23.1907ms
+2026-10-05 22:24:19.962 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetUserProfileImage (QuickHired.API)'
+2026-10-05 22:24:19.962 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster/GetUserProfileImage/b38417ac-74ed-4bdd-9060-4e610023ff1c - 200 null application/json; charset=utf-8 27.3855ms
+2026-10-05 22:24:19.977 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/InterviewReports/GetTheme/abdulraheemnasirfarooqi24@gmail.com - null null
+2026-10-05 22:24:19.979 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:19.979 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API)'
+2026-10-05 22:24:19.980 +05:00 [INF] Route matched with {action = "GetTheme", controller = "InterviewReports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTheme(System.String) on controller QuickHired.API.Controllers.InterviewReportsController (QuickHired.API).
+2026-10-05 22:24:19.981 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:19.985 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__email_0='abdulraheemnasirfarooqi24@gmail.com' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[Theme]
+FROM [UserThemePreference] AS [u]
+WHERE [u].[Email] = @__email_0
+ORDER BY [u].[CreatedAt] DESC
+2026-10-05 22:24:19.986 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-10-05 22:24:19.986 +05:00 [INF] Executed action QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API) in 6.8634ms
+2026-10-05 22:24:19.987 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API)'
+2026-10-05 22:24:19.987 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/InterviewReports/GetTheme/abdulraheemnasirfarooqi24@gmail.com - 200 null text/plain; charset=utf-8 10.5969ms
+2026-10-05 22:24:26.372 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:26.372 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:26.372 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - 204 null null 0.9788ms
+2026-10-05 22:24:26.375 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:26.375 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:26.376 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:26.376 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 22:24:26.380 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:26.383 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedEmail_0='ABDULRAHEEMNASIRFAROOQI24@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-10-05 22:24:26.385 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-10-05 22:24:26.385 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-10-05 22:24:26.386 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-05 22:24:26.386 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 9.5757ms
+2026-10-05 22:24:26.386 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:26.386 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 200 null application/json; charset=utf-8 11.4734ms
+2026-10-05 22:24:26.870 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - null null
+2026-10-05 22:24:26.870 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:26.871 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - 204 null null 0.7072ms
+2026-10-05 22:24:26.872 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/user-plan/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 22:24:26.872 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:26.872 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API)'
+2026-10-05 22:24:26.872 +05:00 [INF] Route matched with {action = "GetUserSubscriptionPlan", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserSubscriptionPlan(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-10-05 22:24:26.873 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - application/json 69
+2026-10-05 22:24:26.873 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:26.873 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - 404 0 null 0.6868ms
+2026-10-05 22:24:26.873 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:44303/api/SecurityMaster/save-language-preference, Response status code: 404
+2026-10-05 22:24:26.873 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:26.876 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CancellationReason], [u].[CancelledDate], [u].[CreatedAt], [u].[CustomerId], [u].[PlanName], [u].[Status], [u].[SubscriptionKey], [u].[UserId]
+FROM [UserSubscriptions] AS [u]
+WHERE [u].[UserId] = @__userId_0
+2026-10-05 22:24:26.880 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__planName_0='Free' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-10-05 22:24:26.880 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-10-05 22:24:26.880 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API) in 7.8972ms
+2026-10-05 22:24:26.880 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API)'
+2026-10-05 22:24:26.880 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/user-plan/b38417ac-74ed-4bdd-9060-4e610023ff1c - 404 null text/plain; charset=utf-8 8.8229ms
+2026-10-05 22:24:37.439 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:37.440 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:37.440 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - 204 null null 1.0088ms
+2026-10-05 22:24:37.443 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 22:24:37.443 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:37.444 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:37.444 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 22:24:37.447 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:37.449 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedEmail_0='ABDULRAHEEMNASIRFAROOQI24@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-10-05 22:24:37.451 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-10-05 22:24:37.452 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-10-05 22:24:37.452 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-05 22:24:37.452 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 8.1347ms
+2026-10-05 22:24:37.452 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 22:24:37.452 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 200 null application/json; charset=utf-8 9.6884ms
+2026-10-05 22:24:37.939 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - null null
+2026-10-05 22:24:37.939 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:37.939 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - 204 null null 0.7172ms
+2026-10-05 22:24:37.940 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/user-plan/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 22:24:37.940 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:37.940 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API)'
+2026-10-05 22:24:37.941 +05:00 [INF] Route matched with {action = "GetUserSubscriptionPlan", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserSubscriptionPlan(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-10-05 22:24:37.941 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - application/json 69
+2026-10-05 22:24:37.942 +05:00 [INF] CORS policy execution successful.
+2026-10-05 22:24:37.942 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - 404 0 null 0.9212ms
+2026-10-05 22:24:37.942 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 22:24:37.942 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:44303/api/SecurityMaster/save-language-preference, Response status code: 404
+2026-10-05 22:24:37.944 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CancellationReason], [u].[CancelledDate], [u].[CreatedAt], [u].[CustomerId], [u].[PlanName], [u].[Status], [u].[SubscriptionKey], [u].[UserId]
+FROM [UserSubscriptions] AS [u]
+WHERE [u].[UserId] = @__userId_0
+2026-10-05 22:24:37.947 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[@__planName_0='Free' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-10-05 22:24:37.947 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-10-05 22:24:37.947 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API) in 6.2982ms
+2026-10-05 22:24:37.947 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API)'
+2026-10-05 22:24:37.947 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/user-plan/b38417ac-74ed-4bdd-9060-4e610023ff1c - 404 null text/plain; charset=utf-8 7.2799ms
+2026-10-05 23:05:06.284 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 23:05:06.286 +05:00 [INF] CORS policy execution successful.
+2026-10-05 23:05:06.310 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - 204 null null 27.0108ms
+2026-10-05 23:05:06.313 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-10-05 23:05:06.313 +05:00 [INF] CORS policy execution successful.
+2026-10-05 23:05:06.314 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 23:05:06.315 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-10-05 23:05:06.318 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 23:05:06.347 +05:00 [INF] Executed DbCommand (16ms) [Parameters=[@__normalizedEmail_0='ABDULRAHEEMNASIRFAROOQI24@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-10-05 23:05:06.351 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-10-05 23:05:06.352 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-10-05 23:05:06.353 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-10-05 23:05:06.354 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 39.2998ms
+2026-10-05 23:05:06.354 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-10-05 23:05:06.354 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 200 null application/json; charset=utf-8 41.3778ms
+2026-10-05 23:05:06.776 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - null null
+2026-10-05 23:05:06.776 +05:00 [INF] CORS policy execution successful.
+2026-10-05 23:05:06.776 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - 204 null null 0.7359ms
+2026-10-05 23:05:06.777 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/Membership/user-plan/b38417ac-74ed-4bdd-9060-4e610023ff1c - null null
+2026-10-05 23:05:06.778 +05:00 [INF] CORS policy execution successful.
+2026-10-05 23:05:06.778 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API)'
+2026-10-05 23:05:06.778 +05:00 [INF] Route matched with {action = "GetUserSubscriptionPlan", controller = "Membership"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserSubscriptionPlan(System.String) on controller QuickHired.API.Controllers.MembershipController (QuickHired.API).
+2026-10-05 23:05:06.779 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - application/json 69
+2026-10-05 23:05:06.779 +05:00 [INF] CORS policy execution successful.
+2026-10-05 23:05:06.779 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-10-05 23:05:06.779 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - 404 0 null 1.009ms
+2026-10-05 23:05:06.780 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:44303/api/SecurityMaster/save-language-preference, Response status code: 404
+2026-10-05 23:05:06.783 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='b38417ac-74ed-4bdd-9060-4e610023ff1c' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CancellationReason], [u].[CancelledDate], [u].[CreatedAt], [u].[CustomerId], [u].[PlanName], [u].[Status], [u].[SubscriptionKey], [u].[UserId]
+FROM [UserSubscriptions] AS [u]
+WHERE [u].[UserId] = @__userId_0
+2026-10-05 23:05:06.787 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[@__planName_0='Free' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[Id], [s].[AIInterviewCopilot], [s].[AIInterviewReports], [s].[AIMockInterview], [s].[MeetingRecording], [s].[Price], [s].[SessionLength], [s].[SubscriptionName]
+FROM [Subscriptions] AS [s]
+WHERE [s].[SubscriptionName] = @__planName_0
+2026-10-05 23:05:06.787 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-10-05 23:05:06.788 +05:00 [INF] Executed action QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API) in 9.7474ms
+2026-10-05 23:05:06.788 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.MembershipController.GetUserSubscriptionPlan (QuickHired.API)'
+2026-10-05 23:05:06.788 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/Membership/user-plan/b38417ac-74ed-4bdd-9060-4e610023ff1c - 404 null text/plain; charset=utf-8 10.7715ms

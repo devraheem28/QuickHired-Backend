@@ -1,0 +1,18 @@
+[2026-09-17 18:00:40] [INFO] [INTERVIEW_SUMMARY_EMAIL] Starting interview summary email send - To: beastshah123@gmail.com, User: S M, Company: asda
+[2026-09-17 18:00:40] [INFO] [INTERVIEW_SUMMARY_EMAIL] Looking for template at: F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\Interview\Summary.html
+[2026-09-17 18:00:40] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template found, processing content
+[2026-09-17 18:00:40] [INFO] [INTERVIEW_SUMMARY_EMAIL] Using base URL: https://localhost:44303
+[2026-09-17 18:00:40] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template processing completed, getting API key
+[2026-09-17 18:00:40] [INFO] [INTERVIEW_SUMMARY_EMAIL] Email subject: Interview Summary Report
+[2026-09-17 18:00:40] [INFO] [INTERVIEW_SUMMARY_EMAIL] Sending email via SendGrid
+[2026-09-17 18:00:42] [INFO] [INTERVIEW_SUMMARY_EMAIL] SendGrid response - Status: Accepted
+[2026-09-17 18:00:42] [SUCCESS] [INTERVIEW_SUMMARY_EMAIL] Interview summary email sent successfully
+[2026-09-17 18:00:42] [INFO] [INTERVIEW_SUMMARY_EMAIL] Starting interview summary email send - To: beastshah123@gmail.com, User: S M, Company: asda
+[2026-09-17 18:00:42] [INFO] [INTERVIEW_SUMMARY_EMAIL] Looking for template at: F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\Interview\Summary.html
+[2026-09-17 18:00:42] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template found, processing content
+[2026-09-17 18:00:42] [INFO] [INTERVIEW_SUMMARY_EMAIL] Using base URL: https://localhost:44303
+[2026-09-17 18:00:42] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template processing completed, getting API key
+[2026-09-17 18:00:42] [INFO] [INTERVIEW_SUMMARY_EMAIL] Email subject: Interview Summary Report
+[2026-09-17 18:00:42] [INFO] [INTERVIEW_SUMMARY_EMAIL] Sending email via SendGrid
+[2026-09-17 18:00:43] [INFO] [INTERVIEW_SUMMARY_EMAIL] SendGrid response - Status: Accepted
+[2026-09-17 18:00:43] [SUCCESS] [INTERVIEW_SUMMARY_EMAIL] Interview summary email sent successfully

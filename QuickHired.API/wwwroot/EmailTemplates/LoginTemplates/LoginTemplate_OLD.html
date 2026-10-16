@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuickHired | Login Alert</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(180deg, #075a73, #064a60);
+            font-family: Inter, Arial, sans-serif;
+        }
+
+        .email-wrapper {
+            max-width: 700px;
+            margin: 30px auto;
+            background: #fff;
+            border-radius: 16px;
+            box-shadow: 0 4px 24px rgba(7, 90, 115, 0.15);
+            padding: 40px;
+            border: 2px solid #ffb703;
+        }
+
+        .email-logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .email-logo img {
+                height: 40px;
+            }
+
+        .email-heading {
+            font-size: 24px;
+            color: #075a73;
+            font-weight: bold;
+            margin-bottom: 10px;
+            letter-spacing: 0.03em;
+        }
+
+        .email-body p {
+            color: #181C32;
+            font-size: 15px;
+            margin: 10px 0;
+        }
+
+        .email-body a.button {
+            display: inline-block;
+            padding: 12px 28px;
+            font-size: 16px;
+            background-color: #075a73;
+            color: #fff !important;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 18px 0;
+            font-weight: 600;
+            box-shadow: 0 2px 8px rgba(7, 90, 115, 0.10);
+            border: 1px solid #ffb703;
+            transition: background 0.2s;
+        }
+
+            .email-body a.button:hover {
+                background-color: #064a60;
+            }
+
+        .email-footer {
+            text-align: center;
+            font-size: 13px;
+            color: #7E8299;
+            margin-top: 40px;
+        }
+
+            .email-footer .brand {
+                font-weight: bold;
+                font-size: 16px;
+                color: #2F3044;
+            }
+
+            .email-footer .contact {
+                margin: 4px 0;
+            }
+
+        .social-links {
+            margin-top: 10px;
+        }
+
+            .social-links a {
+                display: inline-block;
+                margin: 0 5px;
+            }
+
+            .social-links img {
+                width: 20px;
+                height: 20px;
+            }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="email-wrapper">
+        <!-- Logo -->
+        <div class="email-logo">
+            <a href="https://quickhired.com">
+                <img src="{{logo}}" alt="QuickHired Logo" />
+            </a>
+        </div>
+        <hr />
+
+        <!-- Email Content -->
+        <div class="email-body">
+            <p class="email-heading">Welcome, {{UserName}}!</p>
+
+            <p>Thank you for trusting QuickHired. Your account security is our top priority. We noticed a new login to your account from a different device or location. If this was you, no further action is needed.</p>
+
+            <p>If you did not log in from this device, please click the button below to change your password immediately:</p>
+
+            <a href="https://quickhired.com/forget-password" class="button">Change Your Password</a>
+
+            <p>If you have any questions, reply to this email or visit our <a href="https://quickhired.com/contact-us">Support Center</a>.</p>
+
+            <p style="margin-top: 20px; color: #075a73; font-weight: 600;">QuickHired is committed to providing a premium, secure, and seamless experience for all our users. <br>For corporate inquiries, partnerships, or support, contact us at <a href="mailto:info@quickhired.com" style="color:#ffb703;">info@quickhired.com</a>.</p>
+
+            <p style="margin-top: 20px;">Best regards,<br><strong>QuickHired Security Team</strong></p>
+        </div>
+
+        <!-- Footer -->
+        <div class="email-footer">
+            <hr />
+            <div class="brand">QuickHired</div>
+            <div class="contact">📧 info@quickhired.com | 📞 +1 (302) 669-9562</div>
+            <div class="social-links">
+                <a href="https://web.facebook.com/codewodeofficial/" target="_blank">
+                    <img src="{{facebooklogo}}" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/codewodeofficial/" target="_blank">
+                    <img src="{{instagramLogo}}" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/watch?v=53PlvmZHA-E/" target="_blank">
+                    <img src="{{youtubeLogo}}" alt="YouTube">
+                </a>
+                <a href="https://www.linkedin.com/company/codewode/" target="_blank">
+                    <img src="{{linkedInLogo}}" alt="LinkedIn">
+                </a>
+            </div>
+            <div style="margin-top: 10px;">© 2025 QuickHired. All rights reserved.</div>
+        </div>
+    </div>
+
+</body>
+</html>

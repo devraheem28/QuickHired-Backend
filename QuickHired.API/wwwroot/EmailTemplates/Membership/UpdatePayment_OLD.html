@@ -1,0 +1,209 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QuickHired | Payment Details Updated</title>
+    <style>
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background: linear-gradient(135deg, #075a73 0%, #ffb703 100%);
+            color: #2F3044;
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+
+        .email-wrapper {
+            max-width: 700px;
+            margin: 30px auto;
+            background: #fff;
+            border-radius: 18px;
+            box-shadow: 0 8px 32px rgba(7, 90, 115, 0.18);
+            padding: 40px 32px 32px 32px;
+            border: 2px solid #ffb703;
+            position: relative;
+            overflow: hidden;
+        }
+
+            .email-wrapper::before {
+                content: '';
+                position: absolute;
+                top: -60px;
+                right: -60px;
+                width: 120px;
+                height: 120px;
+                background: radial-gradient(circle, #ffb703 40%, transparent 70%);
+                opacity: 0.15;
+                z-index: 0;
+            }
+
+        .email-logo {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+            .email-logo img {
+                height: 48px;
+            }
+
+            .email-logo img {
+                height: 40px;
+            }
+
+        .email-heading {
+            font-size: 26px;
+            color: #075a73;
+            font-weight: 700;
+            margin-bottom: 10px;
+            letter-spacing: 0.04em;
+            display: flex;
+            align-items: center;
+        }
+
+            .email-heading .icon {
+                margin-right: 10px;
+                font-size: 28px;
+            }
+
+        .email-body p {
+            font-size: 15px;
+            color: #181C32;
+            margin: 10px 0;
+        }
+
+        .support-link {
+            color: #075a73;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+            .support-link:hover {
+                text-decoration: underline;
+                color: #ffb703;
+            }
+
+        .email-footer {
+            text-align: center;
+            font-size: 15px;
+            color: #075a73;
+            margin-top: 48px;
+            background: linear-gradient(90deg, #075a73 60%, #ffb703 100%);
+            border-radius: 0 0 18px 18px;
+            padding: 24px 0 12px 0;
+            box-shadow: 0 -2px 8px rgba(7, 90, 115, 0.08);
+        }
+
+            .email-footer .brand {
+                font-weight: bold;
+                font-size: 18px;
+                color: #fff;
+            }
+
+            .email-footer .contact {
+                margin: 6px 0;
+                color: #fff;
+                font-size: 15px;
+            }
+
+                .email-footer .contact .icon {
+                    margin-right: 6px;
+                    font-size: 18px;
+                }
+
+        .social-links {
+            margin-top: 14px;
+        }
+
+            .social-links a {
+                display: inline-block;
+                margin: 0 8px;
+            }
+
+            .social-links img {
+                width: 24px;
+                height: 24px;
+                filter: drop-shadow(0 2px 4px rgba(7,90,115,0.12));
+            }
+
+        hr {
+            border: none;
+            border-top: 2px solid #ffb703;
+            margin: 32px 0;
+        }
+
+        .email-footer .brand {
+            font-weight: bold;
+            font-size: 16px;
+            color: #2F3044;
+        }
+
+        .email-footer .contact {
+            margin: 4px 0;
+        }
+
+        .social-links {
+            margin-top: 10px;
+        }
+
+            .social-links a {
+                display: inline-block;
+                margin: 0 5px;
+            }
+
+            .social-links img {
+                width: 20px;
+                height: 20px;
+            }
+
+        hr {
+            border: none;
+            border-top: 1px solid #ccc;
+            margin: 30px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="email-wrapper">
+        <!-- Logo -->
+        <div class="email-logo">
+            <a href="https://quickhired.com">
+                <img src="https://quickhired.com/assets/logos/quickhiretrans.png" alt="QuickHired Logo" />
+            </a>
+        </div>
+        <hr />
+
+        <!-- Email Content -->
+        <div class="email-body">
+            <p class="email-heading"><span class="icon">💳</span>Payment Details Updated</p>
+            <p>Your payment information has been <strong>successfully updated</strong>! <span style="color:#ffb703; font-weight:600;">Your account is now up to date.</span></p>
+            <p>If you made this change, no further action is required.</p>
+            <p>If you did <strong>not</strong> authorize this update or have any concerns, please contact our <a href="http://quickhired.com/contact-us" class="support-link">Support Team</a> immediately.</p>
+            <p>Thank you for keeping your account up to date. <span style="color:#075a73;">Your security is our priority!</span></p>
+            <p style="margin-top: 20px; color: #075a73; font-weight: 600;">For corporate inquiries, partnerships, or support, contact us at <a href="mailto:info@quickhired.com" style="color:#ffb703; font-weight:600;">info@quickhired.com</a>.</p>
+            <p style="margin-top: 20px;">Best regards,<br><strong>The QuickHired Team</strong></p>
+        </div>
+
+        <!-- Footer -->
+        <div class="email-footer">
+            <hr />
+            <div class="brand">💳 QuickHired</div>
+            <div class="contact"><span class="icon">📧</span> info@quickhired.com &nbsp;|&nbsp; <span class="icon">📞</span> +1 (302) 669-9562</div>
+            <div class="social-links">
+                <a href="https://web.facebook.com/codewodeofficial/" target="_blank">
+                    <img src="{{facebooklogo}}" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/codewodeofficial/" target="_blank">
+                    <img src="{{instagramLogo}}" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/watch?v=53PlvmZHA-E/" target="_blank">
+                    <img src="{{youtubeLogo}}" alt="YouTube">
+                </a>
+                <a href="https://www.linkedin.com/company/codewode/" target="_blank">
+                    <img src="{{linkedInLogo}}" alt="LinkedIn">
+                </a>
+            </div>
+            <div style="margin-top: 14px; color: #fff; font-size: 13px;">© 2025 QuickHired. All rights reserved.<br>Made with <span style="color:#ffb703;">💳</span> for your peace of mind.</div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+[2026-09-11 21:00:01] [INFO] [DAILY_DIGEST_EMAIL] Starting daily digest email send - To: mehrozqazi346@gmail.com, Date: 2026-09-10
+[2026-09-11 21:00:01] [INFO] [DAILY_DIGEST_EMAIL] Looking for daily digest template at: F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\DailyDigest.html
+[2026-09-11 21:00:01] [INFO] [DAILY_DIGEST_EMAIL] Daily digest template found, processing content
+[2026-09-11 21:00:01] [INFO] [DAILY_DIGEST_EMAIL] Daily digest template processing completed, getting API key
+[2026-09-11 21:00:01] [INFO] [DAILY_DIGEST_EMAIL] Sending daily digest email via SendGrid
+[2026-09-11 21:00:03] [SUCCESS] [DAILY_DIGEST_EMAIL] Daily digest email sent successfully
+[2026-09-11 21:00:03] [INFO] [DAILY_DIGEST_SENT] Sent for 2026-09-10 - Users: 16, New Today: 0, Active Subs: 16

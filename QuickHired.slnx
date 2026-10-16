@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="QuickHired.API/QuickHired.API.csproj" />
+  <Project Path="QuickHired.BLL/QuickHired.BLL.csproj" />
+  <Project Path="QuickHired.BOL/QuickHired.BOL.csproj" />
+  <Project Path="QuickHired.DAL/QuickHired.DAL.csproj" />
+</Solution>

@@ -1,0 +1,51 @@
+[2026-09-11 01:22:20] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 01:22:20] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 01:31:22] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 01:31:22] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 01:37:41] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 01:37:41] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 01:39:45] [INFO] [LOGIN_EMAIL] Starting login email send - To: fafifey411@daugr.com, User: raheem
+[2026-09-11 01:39:45] [INFO] [LOGIN_EMAIL] Looking for template at: F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\LoginTemplates\LoginTemplate.html
+[2026-09-11 01:39:45] [INFO] [LOGIN_EMAIL] Login email template found, loading content
+[2026-09-11 01:39:45] [INFO] [LOGIN_EMAIL] Using base URL: https://localhost:44303
+[2026-09-11 01:39:45] [INFO] [LOGIN_EMAIL] Template processing completed, getting API key
+[2026-09-11 01:39:45] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 01:39:45] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 01:39:45] [INFO] [LOGIN_EMAIL] Login email message created, sending via SendGrid
+[2026-09-11 01:39:47] [INFO] [LOGIN_EMAIL] SendGrid response - Status: Forbidden
+[2026-09-11 01:39:47] [ERROR] [LOGIN_EMAIL] Login email failed - Status: Forbidden, Body: {"errors":[{"message":"The from address does not match a verified Sender Identity. Mail cannot be sent until this error is resolved. Visit https://sendgrid.com/docs/for-developers/sending-email/sender-identity/ to see the Sender Identity requirements","field":"from","help":null}]}
+[2026-09-11 01:39:47] [ERROR] [LOGIN_EMAIL] Exception in SendLoginEmail: Email sending failed with status: Forbidden. Body: {"errors":[{"message":"The from address does not match a verified Sender Identity. Mail cannot be sent until this error is resolved. Visit https://sendgrid.com/docs/for-developers/sending-email/sender-identity/ to see the Sender Identity requirements","field":"from","help":null}]}
+[2026-09-11 01:39:47] [ERROR] [USER_LOGIN_EMAIL] Login email failed for: fafifey411@daugr.com | Exception: Email sending failed with status: Forbidden. Body: {"errors":[{"message":"The from address does not match a verified Sender Identity. Mail cannot be sent until this error is resolved. Visit https://sendgrid.com/docs/for-developers/sending-email/sender-identity/ to see the Sender Identity requirements","field":"from","help":null}]} | StackTrace:    at QuickHired.API.Helpers.EmailHelper.SendLoginEmail(String email, String displayName)
+   at QuickHired.API.Controllers.SecurityMasterController.Login(LoginDTO loginDto)
+[2026-09-11 16:44:33] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 16:44:33] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 16:49:10] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 16:49:10] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 16:49:44] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 16:49:44] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 19:27:34] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 19:27:34] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 19:32:03] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 19:32:03] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 20:44:47] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 20:44:47] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 20:48:17] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 20:48:17] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 20:50:12] [INFO] [LOGIN_EMAIL] Starting login email send - To: neyecej452@daugr.com, User: ahsan
+[2026-09-11 20:50:12] [INFO] [LOGIN_EMAIL] Looking for template at: F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\LoginTemplates\LoginTemplate.html
+[2026-09-11 20:50:12] [INFO] [LOGIN_EMAIL] Login email template found, loading content
+[2026-09-11 20:50:12] [INFO] [LOGIN_EMAIL] Using base URL: https://localhost:44303
+[2026-09-11 20:50:12] [INFO] [LOGIN_EMAIL] Template processing completed, getting API key
+[2026-09-11 20:50:12] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 20:50:12] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 20:50:12] [INFO] [LOGIN_EMAIL] Login email message created, sending via SendGrid
+[2026-09-11 20:50:14] [INFO] [LOGIN_EMAIL] SendGrid response - Status: Accepted
+[2026-09-11 20:50:14] [SUCCESS] [LOGIN_EMAIL] Login email sent successfully
+[2026-09-11 21:26:24] [INFO] [SOCIAL_REGISTRATION_EMAIL] Starting social registration email send - To: maartechdyn@gmail.com, User: Ahsan
+[2026-09-11 21:26:24] [INFO] [SOCIAL_REGISTRATION_EMAIL] Looking for template at: F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\RegisterTemplates\RegisterTemplate.html
+[2026-09-11 21:26:24] [INFO] [SOCIAL_REGISTRATION_EMAIL] Template found, processing content
+[2026-09-11 21:26:24] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-11 21:26:24] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-11 21:26:24] [INFO] [SOCIAL_REGISTRATION_EMAIL] Sending email via SendGrid
+[2026-09-11 21:26:26] [INFO] [SOCIAL_REGISTRATION_EMAIL] SendGrid response - Status: Accepted
+[2026-09-11 21:26:26] [SUCCESS] [SOCIAL_REGISTRATION_EMAIL] Social registration email sent successfully

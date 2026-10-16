@@ -1,0 +1,211 @@
+2026-09-16 00:11:38.657 +05:00 [WRN] Increasing the MaxRequestBodySize conflicts with the max value for IIS limit maxAllowedContentLength. HTTP requests that have a content length greater than maxAllowedContentLength will still be rejected by IIS. You can disable the limit by either removing or setting the maxAllowedContentLength value to a higher limit.
+2026-09-16 00:11:39.401 +05:00 [INF] User profile is available. Using 'C:\Users\Ahsan Anees\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-16 00:11:39.612 +05:00 [INF] Daily Digest scheduled for: 2026-09-16 21:00:00
+2026-09-16 00:11:39.872 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - null null
+2026-09-16 00:11:40.050 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-16 00:11:40.050 +05:00 [INF] Hosting environment: Development
+2026-09-16 00:11:40.051 +05:00 [INF] Content root path: F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API
+2026-09-16 00:11:40.321 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - 200 null text/html;charset=utf-8 467.5041ms
+2026-09-16 00:11:40.414 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-16 00:11:40.465 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 52.6895ms
+2026-09-16 00:11:40.480 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - null null
+2026-09-16 00:11:40.612 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - 200 null text/javascript; charset=UTF-8 132.2267ms
+2026-09-16 00:11:40.759 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - null null
+2026-09-16 00:11:41.004 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 245.2647ms
+2026-09-16 00:11:47.872 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - null null
+2026-09-16 00:11:47.948 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:11:47.952 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster - 204 null null 81.5731ms
+2026-09-16 00:11:47.971 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-09-16 00:11:47.985 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:11:49.123 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-09-16 00:11:49.127 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:11:50.699 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-09-16 00:11:50.700 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-09-16 00:11:50.772 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-09-16 00:11:50.772 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-09-16 00:11:53.588 +05:00 [WRN] Sensitive data logging is enabled. Log entries and exception messages may include sensitive application data; this mode should only be enabled during development.
+2026-09-16 00:11:53.683 +05:00 [WRN] No store type was specified for the decimal property 'Percentage' on entity type 'PromoCodes'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-09-16 00:11:53.683 +05:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Subscriptions'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-09-16 00:11:54.122 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-16 00:11:54.122 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-16 00:11:58.225 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/AIInterview/questions?company=Google&role=HR%20Manager - null null
+2026-09-16 00:11:58.227 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:11:58.233 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.AIInterviewController.GetInterviewQuestions (QuickHired.API)'
+2026-09-16 00:11:58.268 +05:00 [INF] Route matched with {action = "GetInterviewQuestions", controller = "AIInterview"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInterviewQuestions(System.String, System.String) on controller QuickHired.API.Controllers.AIInterviewController (QuickHired.API).
+2026-09-16 00:13:05.784 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster - null null
+2026-09-16 00:13:05.785 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:13:05.789 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-09-16 00:13:05.789 +05:00 [INF] Route matched with {action = "GetCurrentUser", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[QuickHired.API.Models.ApiResponse`1[QuickHired.API.DTOs.UserDTO]] GetCurrentUser() on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-09-16 00:13:05.918 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-16 00:13:06.242 +05:00 [INF] Requesting Glassdoor via ScraperAPI: https://www.glassdoor.com/Interview/google-hr-manager-interview-questions-SRCH_KO0,17.htm
+2026-09-16 00:13:06.247 +05:00 [INF] Start processing HTTP request GET https://api.scraperapi.com/?api_key=a02afea91a1573ac59243edc13154be5&url=https%3A%2F%2Fwww.glassdoor.com%2FInterview%2Fgoogle-hr-manager-interview-questions-SRCH_KO0%2C17.htm&render=true
+2026-09-16 00:13:06.253 +05:00 [INF] Sending HTTP request GET https://api.scraperapi.com/?api_key=a02afea91a1573ac59243edc13154be5&url=https%3A%2F%2Fwww.glassdoor.com%2FInterview%2Fgoogle-hr-manager-interview-questions-SRCH_KO0%2C17.htm&render=true
+2026-09-16 00:13:06.476 +05:00 [INF] Executed DbCommand (107ms) [Parameters=[@__normalizedEmail_0='BEASTSHAH123@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-09-16 00:13:06.476 +05:00 [INF] Executed DbCommand (107ms) [Parameters=[@__normalizedEmail_0='BEASTSHAH123@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-09-16 00:13:06.476 +05:00 [INF] Executed DbCommand (103ms) [Parameters=[@__normalizedEmail_0='BEASTSHAH123@GMAIL.COM' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(2) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[NormalizedEmail] = @__normalizedEmail_0
+2026-09-16 00:13:06.589 +05:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='811ae000-f023-4ade-91ea-b68d63373f3e' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-09-16 00:13:06.589 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[@__userId_0='811ae000-f023-4ade-91ea-b68d63373f3e' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-09-16 00:13:06.589 +05:00 [INF] Executed DbCommand (8ms) [Parameters=[@__userId_0='811ae000-f023-4ade-91ea-b68d63373f3e' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT [a0].[Name]
+FROM [AspNetUserRoles] AS [a]
+INNER JOIN [AspNetRoles] AS [a0] ON [a].[RoleId] = [a0].[Id]
+WHERE [a].[UserId] = @__userId_0
+2026-09-16 00:13:06.609 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-09-16 00:13:06.609 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-09-16 00:13:06.609 +05:00 [INF] SecurityMasterController - GetCurrentUser() executed successfully.
+2026-09-16 00:13:06.617 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-16 00:13:06.617 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-16 00:13:06.617 +05:00 [INF] Executing ObjectResult, writing value of type 'QuickHired.API.Models.ApiResponse`1[[QuickHired.API.DTOs.UserDTO, QuickHired.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-16 00:13:06.641 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 75864.3744ms
+2026-09-16 00:13:06.641 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 848.39ms
+2026-09-16 00:13:06.641 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API) in 75866.7815ms
+2026-09-16 00:13:06.642 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-09-16 00:13:06.642 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-09-16 00:13:06.642 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetCurrentUser (QuickHired.API)'
+2026-09-16 00:13:06.652 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 200 null application/json; charset=utf-8 77529.4047ms
+2026-09-16 00:13:06.652 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 499 null application/json; charset=utf-8 78680.4392ms
+2026-09-16 00:13:06.652 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster - 200 null application/json; charset=utf-8 11362.6874ms
+2026-09-16 00:13:06.652 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster/get-user-plan/811ae000-f023-4ade-91ea-b68d63373f3e - null null
+2026-09-16 00:13:06.653 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:13:06.653 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetUserPlan (QuickHired.API)'
+2026-09-16 00:13:06.655 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/InterviewReports/GetTheme/beastshah123@gmail.com - null null
+2026-09-16 00:13:06.655 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:13:06.656 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API)'
+2026-09-16 00:13:06.657 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/GetUserProfileImage/811ae000-f023-4ade-91ea-b68d63373f3e - null null
+2026-09-16 00:13:06.661 +05:00 [INF] Route matched with {action = "GetUserPlan", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserPlan(System.String) on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-09-16 00:13:06.662 +05:00 [INF] Route matched with {action = "GetTheme", controller = "InterviewReports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTheme(System.String) on controller QuickHired.API.Controllers.InterviewReportsController (QuickHired.API).
+2026-09-16 00:13:06.664 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:13:06.665 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/GetUserProfileImage/811ae000-f023-4ade-91ea-b68d63373f3e - 204 null null 7.4386ms
+2026-09-16 00:13:06.666 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-16 00:13:06.668 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-16 00:13:06.668 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster/GetUserProfileImage/811ae000-f023-4ade-91ea-b68d63373f3e - null null
+2026-09-16 00:13:06.668 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:13:06.669 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetUserProfileImage (QuickHired.API)'
+2026-09-16 00:13:06.677 +05:00 [INF] Route matched with {action = "GetUserProfileImage", controller = "SecurityMaster"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserProfileImage(System.String) on controller QuickHired.API.Controllers.SecurityMasterController (QuickHired.API).
+2026-09-16 00:13:06.681 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-16 00:13:06.695 +05:00 [INF] Executed DbCommand (13ms) [Parameters=[@__email_0='811ae000-f023-4ade-91ea-b68d63373f3e' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CancellationReason], [u].[CancelledDate], [u].[CreatedAt], [u].[CustomerId], [u].[PlanName], [u].[Status], [u].[SubscriptionKey], [u].[UserId]
+FROM [UserSubscriptions] AS [u]
+WHERE [u].[UserId] = @__email_0
+ORDER BY [u].[CreatedAt] DESC
+2026-09-16 00:13:06.695 +05:00 [INF] Executed DbCommand (13ms) [Parameters=[@__email_0='beastshah123@gmail.com' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[Theme]
+FROM [UserThemePreference] AS [u]
+WHERE [u].[Email] = @__email_0
+ORDER BY [u].[CreatedAt] DESC
+2026-09-16 00:13:06.700 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-09-16 00:13:06.700 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType50`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-16 00:13:06.701 +05:00 [INF] Executed action QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API) in 38.4085ms
+2026-09-16 00:13:06.701 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API)'
+2026-09-16 00:13:06.701 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/InterviewReports/GetTheme/beastshah123@gmail.com - 200 null text/plain; charset=utf-8 46.6489ms
+2026-09-16 00:13:06.708 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetUserPlan (QuickHired.API) in 46.8622ms
+2026-09-16 00:13:06.708 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetUserPlan (QuickHired.API)'
+2026-09-16 00:13:06.710 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster/get-user-plan/811ae000-f023-4ade-91ea-b68d63373f3e - 200 null application/json; charset=utf-8 56.9788ms
+2026-09-16 00:13:06.715 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='811ae000-f023-4ade-91ea-b68d63373f3e' (Size = 450)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [a].[Id], [a].[AccessFailedCount], [a].[ConcurrencyStamp], [a].[Email], [a].[EmailConfirmed], [a].[LockoutEnabled], [a].[LockoutEnd], [a].[NormalizedEmail], [a].[NormalizedUserName], [a].[PasswordHash], [a].[PhoneNumber], [a].[PhoneNumberConfirmed], [a].[SecurityStamp], [a].[TwoFactorEnabled], [a].[UserName], [a0].[Address], [a0].[City], [a0].[Country], [a0].[Education], [a0].[ExperienceLevel], [a0].[FirstName], [a0].[JobTitle], [a0].[LastName], [a0].[LinkedInProfile], [a0].[ProfileImagePath], [a0].[ResumeUrl], [a0].[Skills], [a0].[State], [a0].[YearsOfExperience], [a0].[ZipCode]
+FROM [AspNetUsers] AS [a]
+INNER JOIN [AppUsers] AS [a0] ON [a].[Id] = [a0].[Id]
+WHERE [a].[Id] = @__p_0
+2026-09-16 00:13:06.716 +05:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType51`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-09-16 00:13:06.717 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/language-preference/811ae000-f023-4ade-91ea-b68d63373f3e - null null
+2026-09-16 00:13:06.717 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:13:06.718 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/language-preference/811ae000-f023-4ade-91ea-b68d63373f3e - 204 null null 1.3169ms
+2026-09-16 00:13:06.719 +05:00 [INF] Executed action QuickHired.API.Controllers.SecurityMasterController.GetUserProfileImage (QuickHired.API) in 41.7443ms
+2026-09-16 00:13:06.719 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.SecurityMasterController.GetUserProfileImage (QuickHired.API)'
+2026-09-16 00:13:06.719 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster/GetUserProfileImage/811ae000-f023-4ade-91ea-b68d63373f3e - 200 null application/json; charset=utf-8 51.1076ms
+2026-09-16 00:13:06.721 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/SecurityMaster/language-preference/811ae000-f023-4ade-91ea-b68d63373f3e - null null
+2026-09-16 00:13:06.722 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:13:06.722 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/InterviewReports/GetTheme/beastshah123@gmail.com - null null
+2026-09-16 00:13:06.723 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/SecurityMaster/language-preference/811ae000-f023-4ade-91ea-b68d63373f3e - 404 null null 1.9383ms
+2026-09-16 00:13:06.724 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:44303/api/SecurityMaster/language-preference/811ae000-f023-4ade-91ea-b68d63373f3e, Response status code: 404
+2026-09-16 00:13:06.725 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:13:06.725 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API)'
+2026-09-16 00:13:06.725 +05:00 [INF] Route matched with {action = "GetTheme", controller = "InterviewReports"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTheme(System.String) on controller QuickHired.API.Controllers.InterviewReportsController (QuickHired.API).
+2026-09-16 00:13:06.728 +05:00 [INF] Entity Framework Core 6.0.16 initialized 'AppDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.16' with options: NoTracking SensitiveDataLoggingEnabled 
+2026-09-16 00:13:06.731 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[@__email_0='beastshah123@gmail.com' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[Id], [u].[CreatedAt], [u].[Email], [u].[Theme]
+FROM [UserThemePreference] AS [u]
+WHERE [u].[Email] = @__email_0
+ORDER BY [u].[CreatedAt] DESC
+2026-09-16 00:13:06.732 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.String'.
+2026-09-16 00:13:06.733 +05:00 [INF] Executed action QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API) in 7.2087ms
+2026-09-16 00:13:06.733 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.InterviewReportsController.GetTheme (QuickHired.API)'
+2026-09-16 00:13:06.733 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/InterviewReports/GetTheme/beastshah123@gmail.com - 200 null text/plain; charset=utf-8 11.4827ms
+2026-09-16 00:13:06.862 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - null null
+2026-09-16 00:13:06.863 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:13:06.868 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:44303/api/SecurityMaster/save-language-preference - 204 null null 1.2485ms
+2026-09-16 00:13:06.916 +05:00 [INF] Request starting HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - application/json 69
+2026-09-16 00:13:06.916 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:13:06.925 +05:00 [INF] Request finished HTTP/2 POST https://localhost:44303/api/SecurityMaster/save-language-preference - 404 null null 9.1602ms
+2026-09-16 00:13:06.925 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:44303/api/SecurityMaster/save-language-preference, Response status code: 404
+2026-09-16 00:13:31.526 +05:00 [INF] Received HTTP response headers after 25253.6975ms - 200
+2026-09-16 00:13:31.534 +05:00 [INF] End processing HTTP request after 25287.476ms - 200
+2026-09-16 00:13:33.766 +05:00 [INF] Saved Glassdoor debug HTML to F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\bin\Debug\net8.0\glassdoor-debug.html (603602 chars)
+2026-09-16 00:13:33.907 +05:00 [INF] Glassdoor scrape found 0 candidate nodes for query 'Google HR Manager'
+2026-09-16 00:13:33.907 +05:00 [WRN] Glassdoor scrape returned 0 questions for 'Google HR Manager'. Check glassdoor-debug.html to see if Glassdoor blocked the request or the selector no longer matches.
+2026-09-16 00:13:33.922 +05:00 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-09-16 00:13:33.922 +05:00 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-09-16 00:13:36.215 +05:00 [INF] Received HTTP response headers after 2293.0541ms - 403
+2026-09-16 00:13:36.215 +05:00 [INF] End processing HTTP request after 2293.3489ms - 403
+2026-09-16 00:13:36.216 +05:00 [ERR] OpenAI API Error: {
+    "error": {
+        "message": "Project `proj_z2JlwtOEEaqA30huoSd92Cgo` does not have access to model `gpt-4o`",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "model_not_found"
+    }
+}
+
+2026-09-16 00:14:08.070 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-09-16 00:14:08.071 +05:00 [INF] Executed action QuickHired.API.Controllers.AIInterviewController.GetInterviewQuestions (QuickHired.API) in 129803.3238ms
+2026-09-16 00:14:08.071 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.AIInterviewController.GetInterviewQuestions (QuickHired.API)'
+2026-09-16 00:14:08.685 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/AIInterview/questions?company=Google&role=HR%20Manager - 404 null text/plain; charset=utf-8 130460.0934ms
+2026-09-16 00:23:20.325 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/api/AIInterview/questions?company=Google&role=HR%20Manager - null null
+2026-09-16 00:23:20.332 +05:00 [INF] CORS policy execution successful.
+2026-09-16 00:23:20.332 +05:00 [INF] Executing endpoint 'QuickHired.API.Controllers.AIInterviewController.GetInterviewQuestions (QuickHired.API)'
+2026-09-16 00:23:20.333 +05:00 [INF] Route matched with {action = "GetInterviewQuestions", controller = "AIInterview"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetInterviewQuestions(System.String, System.String) on controller QuickHired.API.Controllers.AIInterviewController (QuickHired.API).
+2026-09-16 00:23:23.710 +05:00 [INF] Requesting Glassdoor via ScraperAPI: https://www.glassdoor.com/Interview/google-hr-manager-interview-questions-SRCH_KO0,17.htm
+2026-09-16 00:23:23.710 +05:00 [INF] Start processing HTTP request GET https://api.scraperapi.com/?api_key=a02afea91a1573ac59243edc13154be5&url=https%3A%2F%2Fwww.glassdoor.com%2FInterview%2Fgoogle-hr-manager-interview-questions-SRCH_KO0%2C17.htm&render=true
+2026-09-16 00:23:23.710 +05:00 [INF] Sending HTTP request GET https://api.scraperapi.com/?api_key=a02afea91a1573ac59243edc13154be5&url=https%3A%2F%2Fwww.glassdoor.com%2FInterview%2Fgoogle-hr-manager-interview-questions-SRCH_KO0%2C17.htm&render=true
+2026-09-16 00:23:44.435 +05:00 [INF] Received HTTP response headers after 20724.72ms - 200
+2026-09-16 00:23:44.472 +05:00 [INF] End processing HTTP request after 20762.0192ms - 200
+2026-09-16 00:23:46.953 +05:00 [INF] Saved Glassdoor debug HTML to F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\bin\Debug\net8.0\glassdoor-debug.html (604014 chars)
+2026-09-16 00:23:47.000 +05:00 [INF] Glassdoor scrape found 0 candidate nodes for query 'Google HR Manager'
+2026-09-16 00:23:47.000 +05:00 [WRN] Glassdoor scrape returned 0 questions for 'Google HR Manager'. Check glassdoor-debug.html to see if Glassdoor blocked the request or the selector no longer matches.
+2026-09-16 00:23:47.014 +05:00 [INF] Start processing HTTP request POST https://api.openai.com/v1/chat/completions
+2026-09-16 00:23:47.015 +05:00 [INF] Sending HTTP request POST https://api.openai.com/v1/chat/completions
+2026-09-16 00:23:48.327 +05:00 [INF] Received HTTP response headers after 1312.0644ms - 403
+2026-09-16 00:23:48.327 +05:00 [INF] End processing HTTP request after 1312.4901ms - 403
+2026-09-16 00:23:48.327 +05:00 [ERR] OpenAI API Error: {
+    "error": {
+        "message": "Project `proj_z2JlwtOEEaqA30huoSd92Cgo` does not have access to model `gpt-4o`",
+        "type": "invalid_request_error",
+        "param": null,
+        "code": "model_not_found"
+    }
+}
+
+2026-09-16 00:23:48.328 +05:00 [INF] Executing NotFoundObjectResult, writing value of type 'System.String'.
+2026-09-16 00:23:48.328 +05:00 [INF] Executed action QuickHired.API.Controllers.AIInterviewController.GetInterviewQuestions (QuickHired.API) in 27995.5548ms
+2026-09-16 00:23:48.328 +05:00 [INF] Executed endpoint 'QuickHired.API.Controllers.AIInterviewController.GetInterviewQuestions (QuickHired.API)'
+2026-09-16 00:23:48.329 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/api/AIInterview/questions?company=Google&role=HR%20Manager - 404 null text/plain; charset=utf-8 28003.7237ms

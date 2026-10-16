@@ -1,0 +1,198 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickHired | Interview Summary</title>
+    <style>
+        /* Minimal CSS for better email client compatibility */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .email-container {
+                width: 100% !important;
+                margin: 10px !important;
+            }
+        }
+    </style>
+    margin: 0;
+    }
+
+    .qh-email-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #064a60;
+    margin: 0 0 16px 0;
+    text-align: center;
+    }
+
+    .qh-email-text {
+    font-size: 16px;
+    color: #1e293b;
+    margin: 16px 0;
+    line-height: 1.6;
+    }
+
+    .qh-info-box {
+    background: linear-gradient(135deg, #075a73 0%, #0a6f8f 35%, #ffb703 100%);
+    color: #ffffff;
+    padding: 20px 24px;
+    border-radius: 12px;
+    margin: 24px 0;
+    }
+
+    .qh-info-box p {
+    margin: 8px 0;
+    font-weight: 600;
+    }
+
+    .qh-summary-box {
+    background: #f8fafc;
+    border-left: 4px solid #ffb703;
+    padding: 24px;
+    border-radius: 8px;
+    margin: 24px 0;
+    box-shadow: 0 2px 8px rgba(6, 74, 96, 0.06);
+    }
+
+    .qh-email-footer {
+    background: #f8fafc;
+    padding: 24px;
+    text-align: center;
+    border-top: 1px solid #e2e8f0;
+    }
+
+    .qh-footer-brand {
+    font-size: 18px;
+    font-weight: 700;
+    color: #075a73;
+    margin-bottom: 8px;
+    }
+
+    .qh-footer-contact {
+    font-size: 14px;
+    color: #64748b;
+    margin: 8px 0;
+    }
+
+    .qh-footer-contact a {
+    color: #075a73;
+    text-decoration: none;
+    }
+
+    .qh-social-links {
+    margin: 16px 0 8px 0;
+    }
+
+    .qh-social-links a {
+    display: inline-block;
+    margin: 0 6px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease;
+    }
+
+    .qh-social-links a:hover {
+    opacity: 1;
+    }
+
+    .qh-social-links img {
+    width: 24px;
+    height: 24px;
+    }
+
+    .qh-footer-copyright {
+    font-size: 12px;
+    color: #64748b;
+    margin-top: 12px;
+    }
+
+    .qh-highlight {
+    color: #ffb703;
+    font-weight: 600;
+    }
+
+    @media only screen and (max-width: 600px) {
+    .qh-email-wrapper {
+    margin: 10px;
+    }
+    .qh-email-card {
+    padding: 24px 16px;
+    }
+    .qh-email-title {
+    font-size: 20px;
+    }
+    .qh-email-text {
+    font-size: 15px;
+    }
+    }
+    </style>
+</head>
+<body>
+    <div class="qh-email-wrapper">
+        <!-- Header -->
+        <div class="qh-email-header">
+            <a href="https://quickhired.com">
+                <img src="{{logo}}" alt="QuickHired Logo" />
+            </a>
+        </div>
+
+        <!-- Body Card -->
+        <div class="qh-email-card">
+            <h1 class="qh-email-title">Interview Summary for {{UserName}}</h1>
+
+            <p class="qh-email-text">Thank you for completing your <strong>{{Company}}</strong> interview with <strong>QuickHired</strong>! <span class="qh-highlight">Your feedback and insights matter.</span></p>
+
+            <div class="qh-info-box">
+                <p><strong>Interview Date:</strong> {{Date}}</p>
+                <p><strong>Duration:</strong> {{Duration}}</p>
+            </div>
+
+            <p class="qh-email-text">Based on our AI transcription and analysis, here is your personalized interview summary:</p>
+
+            <div class="qh-summary-box">
+                {{SummaryHtml}}
+            </div>
+
+            <p class="qh-email-text">If you have any questions or would like to schedule a follow-up, please reply to this email or contact our support team.</p>
+
+            <p class="qh-email-text" style="margin-top: 24px;">Best regards,<br><strong>The QuickHired Team</strong></p>
+        </div>
+
+        <!-- Footer -->
+        <div class="qh-email-footer">
+            <div class="qh-footer-brand">QuickHired</div>
+            <div class="qh-footer-contact">
+                <a href="mailto:info@eventify-pro.com">info@eventify-pro.com</a> |
+                <a href="tel:+13026699562">+1 (302) 669-9562</a>
+            </div>
+            <div class="qh-social-links">
+                <a href="https://web.facebook.com/codewodeofficial/" target="_blank">
+                    <img src="{{facebooklogo}}" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/codewodeofficial/" target="_blank">
+                    <img src="{{instagramLogo}}" alt="Instagram">
+                </a>
+                <a href="https://www.youtube.com/watch?v=53PlvmZHA-E/" target="_blank">
+                    <img src="{{youtubeLogo}}" alt="YouTube">
+                </a>
+                <a href="https://www.linkedin.com/company/codewode/" target="_blank">
+                    <img src="{{linkedInLogo}}" alt="LinkedIn">
+                </a>
+            </div>
+            <div class="qh-footer-copyright">Â© 2025 QuickHired. All rights reserved.<br>Made with â¤ï¸ for your career success.</div>
+        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,4 @@
+[2026-09-17 18:00:40] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-17 18:00:40] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-17 18:00:42] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-17 18:00:42] [INFO] [EMAIL] SendGrid API key loaded from configuration file

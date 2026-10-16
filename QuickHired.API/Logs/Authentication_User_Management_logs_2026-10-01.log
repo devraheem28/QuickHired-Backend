@@ -1,0 +1,8 @@
+[2026-10-01 02:22:51] [INFO] [SOCIAL_REGISTRATION_EMAIL] Starting social registration email send - To: abdulraheemnasirfarooqi24@gmail.com, User: Abdul Raheem
+[2026-10-01 02:22:51] [INFO] [SOCIAL_REGISTRATION_EMAIL] Looking for template at: C:\FYP\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\RegisterTemplates\RegisterTemplate.html
+[2026-10-01 02:22:51] [INFO] [SOCIAL_REGISTRATION_EMAIL] Template found, processing content
+[2026-10-01 02:22:51] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-10-01 02:22:51] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-10-01 02:22:51] [INFO] [SOCIAL_REGISTRATION_EMAIL] Sending email via SendGrid
+[2026-10-01 02:22:53] [INFO] [SOCIAL_REGISTRATION_EMAIL] SendGrid response - Status: Accepted
+[2026-10-01 02:22:53] [SUCCESS] [SOCIAL_REGISTRATION_EMAIL] Social registration email sent successfully

@@ -1,0 +1,19 @@
+[2026-05-07 18:14:37] [INFO] [SOCIAL_REGISTRATION_EMAIL] Starting social registration email send - To: wolfgym51@gmail.com, User: Gym
+[2026-05-07 18:14:37] [INFO] [SOCIAL_REGISTRATION_EMAIL] Looking for template at: F:\Final_Year_Project\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\RegisterTemplates\RegisterTemplate.html
+[2026-05-07 18:14:37] [INFO] [SOCIAL_REGISTRATION_EMAIL] Template found, processing content
+[2026-05-07 18:14:37] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-05-07 18:14:37] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-05-07 18:14:37] [INFO] [SOCIAL_REGISTRATION_EMAIL] Sending email via SendGrid
+[2026-05-07 18:14:39] [INFO] [SOCIAL_REGISTRATION_EMAIL] SendGrid response - Status: Accepted
+[2026-05-07 18:14:39] [SUCCESS] [SOCIAL_REGISTRATION_EMAIL] Social registration email sent successfully
+[2026-05-07 18:47:11] [ERROR] [USER_LOGIN] Login attempt failed - User does not exist: rabnawazabdullah45@gmail.com
+[2026-05-07 18:47:14] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-05-07 18:47:14] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-05-07 18:50:29] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-05-07 18:50:29] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-05-07 18:50:51] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-05-07 18:50:51] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-05-07 18:52:46] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-05-07 18:52:46] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-05-07 18:52:51] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-05-07 18:52:51] [INFO] [EMAIL] SendGrid API key loaded from configuration file

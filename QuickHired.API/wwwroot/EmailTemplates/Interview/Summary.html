@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickHired | Interview Summary</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 20px; background-color: #f8fafc; font-family: Arial, sans-serif;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 24px rgba(6, 74, 96, 0.08);">
+        <tr>
+            <td style="background: linear-gradient(90deg, #064a60 0%, #075a73 40%, #ffb703 100%); padding: 24px; text-align: center;">
+                <img src="{{logo}}" alt="QuickHired Logo" style="height: 40px; filter: brightness(0) invert(1);" />
+            </td>
+        </tr>
+        <tr>
+            <td style="padding: 32px 24px; background: #ffffff;">
+                <h1 style="font-size: 24px; font-weight: 700; color: #064a60; margin: 0 0 20px 0; text-align: center;">Interview Summary for {{UserName}}</h1>
+                <p style="font-size: 16px; color: #1e293b; line-height: 1.6; margin: 16px 0;">Thank you for completing your <strong>{{Company}}</strong> interview! <span style="color: #ffb703; font-weight: 600;">Your feedback and insights matter.</span></p>
+                <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%; background: linear-gradient(135deg, #075a73 0%, #0a6f8f 35%, #ffb703 100%); color: #ffffff; border-radius: 12px; margin: 24px 0;">
+                    <tr>
+                        <td style="padding: 20px; font-weight: 600;">
+                            <p style="margin: 8px 0;"><strong>Interview Date:</strong> {{Date}}</p>
+                            <p style="margin: 8px 0;"><strong>Duration:</strong> {{Duration}}</p>
+                        </td>
+                    </tr>
+                </table>
+                <p style="font-size: 16px; color: #1e293b; line-height: 1.6; margin: 16px 0;">Based on our AI analysis, here is your personalized interview summary:</p>
+                <table role="presentation" cellpadding="0" cellspacing="0" style="width: 100%; background: #f8fafc; border-left: 4px solid #ffb703; border-radius: 8px; margin: 24px 0;">
+                    <tr>
+                        <td style="padding: 24px; font-size: 16px; color: #1e293b; line-height: 1.6;">
+                            {{SummaryHtml}}
+                        </td>
+                    </tr>
+                </table>
+                <p style="font-size: 16px; color: #1e293b; line-height: 1.6; margin: 24px 0 0 0;">Best regards,<br><strong>The QuickHired Team</strong></p>
+            </td>
+        </tr>
+        <tr>
+            <td style="background: #f8fafc; padding: 24px; text-align: center; border-top: 1px solid #e2e8f0;">
+                <div style="font-size: 18px; font-weight: 700; color: #064a60; margin-bottom: 8px;">QuickHired</div>
+                <div style="font-size: 14px; color: #64748b;">
+                    <a href="mailto:info@eventify-pro.com" style="color: #075a73; text-decoration: none;">info@eventify-pro.com</a>
+                </div>
+                <div style="font-size: 12px; color: #64748b; margin-top: 12px;"> 2025 QuickHired. All rights reserved.</div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

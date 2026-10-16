@@ -1,0 +1,28 @@
+2026-06-04 22:25:31.964 +05:00 [WRN] Increasing the MaxRequestBodySize conflicts with the max value for IIS limit maxAllowedContentLength. HTTP requests that have a content length greater than maxAllowedContentLength will still be rejected by IIS. You can disable the limit by either removing or setting the maxAllowedContentLength value to a higher limit.
+2026-06-04 22:25:33.043 +05:00 [INF] User profile is available. Using 'C:\Users\Ahsan Anees\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-06-04 22:25:33.256 +05:00 [INF] Daily Digest scheduled for: 2026-06-05 21:00:00
+2026-06-04 22:25:33.522 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger - null null
+2026-06-04 22:25:33.816 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-06-04 22:25:33.817 +05:00 [INF] Hosting environment: Development
+2026-06-04 22:25:33.817 +05:00 [INF] Content root path: F:\Final_Year_Project\QuickHired_Backend\QuickHired\QuickHired.API
+2026-06-04 22:25:34.553 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger - 301 null null 1049.4968ms
+2026-06-04 22:25:34.577 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/index.html - null null
+2026-06-04 22:25:34.826 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/index.html - 200 null text/html;charset=utf-8 250.6729ms
+2026-06-04 22:25:34.835 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui.css - null null
+2026-06-04 22:25:34.835 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui-bundle.js - null null
+2026-06-04 22:25:34.840 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - null null
+2026-06-04 22:25:34.849 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/swagger-ui-standalone-preset.js - null null
+2026-06-04 22:25:34.853 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_framework/aspnetcore-browser-refresh.js - 200 14933 application/javascript; charset=utf-8 11.1264ms
+2026-06-04 22:25:34.872 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2026-06-04 22:25:34.880 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2026-06-04 22:25:34.897 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2026-06-04 22:25:34.915 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 68.1139ms
+2026-06-04 22:25:34.928 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/_vs/browserLink - null null
+2026-06-04 22:25:34.929 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui.css - 200 152034 text/css 94.7076ms
+2026-06-04 22:25:35.089 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 253.5785ms
+2026-06-04 22:25:35.141 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/_vs/browserLink - 200 null text/javascript; charset=UTF-8 213.3743ms
+2026-06-04 22:25:35.427 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - null null
+2026-06-04 22:25:35.518 +05:00 [INF] Request starting HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - null null
+2026-06-04 22:25:35.520 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2026-06-04 22:25:35.520 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/favicon-32x32.png - 200 628 image/png 6.9819ms
+2026-06-04 22:25:35.628 +05:00 [INF] Request finished HTTP/2 GET https://localhost:44303/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 200.3276ms

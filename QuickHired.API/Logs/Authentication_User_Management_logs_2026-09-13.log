@@ -1,0 +1,30 @@
+[2026-09-13 13:25:52] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-13 13:25:52] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-13 13:25:56] [ERROR] [REGISTRATION_EMAIL] Registration email failed for: fageb99848@fidhost.com | Exception: No such host is known. (api.sendgrid.com:443) | StackTrace:    at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)
+   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.HttpConnectionWaiter`1.WaitForConnectionWithTelemetryAsync(HttpRequestMessage request, HttpConnectionPool pool, Boolean async, CancellationToken requestCancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at SendGrid.Helpers.Reliability.RetryDelegatingHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at SendGrid.BaseClient.MakeRequest(HttpRequestMessage request, CancellationToken cancellationToken)
+   at SendGrid.BaseClient.RequestAsync(Method method, String requestBody, String queryParams, String urlPath, CancellationToken cancellationToken)
+   at SendGrid.BaseClient.SendEmailAsync(SendGridMessage msg, CancellationToken cancellationToken)
+   at QuickHired.API.Helpers.EmailHelper.SendRegistrationEmail(String email, String displayName, String code) in F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\Helpers\EmailHelper.cs:line 362
+   at QuickHired.API.Controllers.SecurityMasterController.<>c__DisplayClass26_0.<<Register>b__0>d.MoveNext() in F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\Controllers\SecurityMasterController.cs:line 537
+[2026-09-13 13:34:44] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-13 13:34:44] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-13 13:35:32] [INFO] [LOGIN_EMAIL] Starting login email send - To: fageb99848@fidhost.com, User: Umer
+[2026-09-13 13:35:32] [INFO] [LOGIN_EMAIL] Looking for template at: F:\Final_Year_Project\FullStack-FYP-\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\LoginTemplates\LoginTemplate.html
+[2026-09-13 13:35:32] [INFO] [LOGIN_EMAIL] Login email template found, loading content
+[2026-09-13 13:35:32] [INFO] [LOGIN_EMAIL] Using base URL: https://localhost:44303
+[2026-09-13 13:35:32] [INFO] [LOGIN_EMAIL] Template processing completed, getting API key
+[2026-09-13 13:35:32] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-09-13 13:35:32] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-09-13 13:35:32] [INFO] [LOGIN_EMAIL] Login email message created, sending via SendGrid
+[2026-09-13 13:35:33] [INFO] [LOGIN_EMAIL] SendGrid response - Status: Accepted
+[2026-09-13 13:35:33] [SUCCESS] [LOGIN_EMAIL] Login email sent successfully

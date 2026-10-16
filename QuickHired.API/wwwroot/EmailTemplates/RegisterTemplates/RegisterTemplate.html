@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickHired | Welcome - Please Verify Your Email</title>
+    <style>
+        /* Minimal CSS for better email client compatibility */
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #1e293b;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .email-container {
+                width: 100% !important;
+                margin: 10px !important;
+            }
+        }
+    </style>
+</head>
+<body style="margin: 0; padding: 20px; background-color: #f8fafc; font-family: Arial, sans-serif;">
+    <table role="presentation" cellpadding="0" cellspacing="0" style="max-width: 600px; margin: 0 auto; background: #ffffff; border-radius: 16px; overflow: hidden; box-shadow: 0 4px 24px rgba(6, 74, 96, 0.08);">
+        <!-- Header -->
+        <tr>
+            <td style="background: linear-gradient(90deg, #064a60 0%, #075a73 40%, #ffb703 100%); padding: 24px; text-align: center;">
+                <a href="https://quickhired.com" style="text-decoration: none;">
+                    <img src="{{logo}}" alt="QuickHired Logo" style="height: 40px; filter: brightness(0) invert(1);" />
+                </a>
+            </td>
+        </tr>
+
+        <!-- Body Card -->
+        <tr>
+            <td style="padding: 32px 24px; background: #ffffff;">
+                <h1 style="font-size: 24px; font-weight: 700; color: #064a60; margin: 0 0 20px 0; text-align: center;">Welcome to QuickHired!</h1>
+
+                <p style="font-size: 16px; color: #1e293b; line-height: 1.6; margin: 16px 0;">Hello {{UserName}},</p>
+
+                <p style="font-size: 16px; color: #1e293b; line-height: 1.6; margin: 16px 0;">Thank you for registering with QuickHired! Please use the verification code below to complete your account setup:</p>
+
+                <!-- Verification Code Box -->
+                <table role="presentation" cellpadding="0" cellspacing="0" style="margin: 24px auto; background: linear-gradient(135deg, #075a73 0%, #0a6f8f 35%, #ffb703 100%); border-radius: 12px; box-shadow: 0 4px 16px rgba(255, 183, 3, 0.3);">
+                    <tr>
+                        <td style="padding: 20px 24px; text-align: center;">
+                            <div style="color: #ffffff; font-size: 14px; font-weight: 600; margin-bottom: 8px;">Your Verification Code</div>
+                            <div style="color: #ffffff; font-size: 32px; font-weight: 700; letter-spacing: 4px; font-family: monospace;">{{Code}}</div>
+                        </td>
+                    </tr>
+                </table>
+
+                <p style="font-size: 16px; color: #1e293b; line-height: 1.6; margin: 16px 0;">Enter this code on the verification page to activate your account. This code will expire in 24 hours for security reasons.</p>
+
+                <p style="font-size: 16px; color: #1e293b; line-height: 1.6; margin: 16px 0;">If you didn't create this account, please ignore this email.</p>
+
+                <p style="font-size: 16px; color: #1e293b; line-height: 1.6; margin: 24px 0 0 0;">Best regards,<br><strong>The QuickHired Team</strong></p>
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td style="background: #f8fafc; padding: 24px; text-align: center; border-top: 1px solid #e2e8f0;">
+                <div style="font-size: 18px; font-weight: 700; color: #064a60; margin-bottom: 8px;">QuickHired</div>
+                <div style="font-size: 14px; color: #64748b; margin-bottom: 16px;">
+                    <a href="mailto:info@eventify-pro.com" style="color: #075a73; text-decoration: none;">info@eventify-pro.com</a> |
+                    <a href="tel:+13026699562" style="color: #075a73; text-decoration: none;">+1 (302) 669-9562</a>
+                </div>
+                <div style="margin: 16px 0 8px 0;">
+                    <a href="https://web.facebook.com/codewodeofficial/" target="_blank" style="display: inline-block; margin: 0 6px; opacity: 0.7;">
+                        <img src="{{facebooklogo}}" alt="Facebook" style="width: 24px; height: 24px;" />
+                    </a>
+                    <a href="https://www.instagram.com/codewodeofficial/" target="_blank" style="display: inline-block; margin: 0 6px; opacity: 0.7;">
+                        <img src="{{instagramLogo}}" alt="Instagram" style="width: 24px; height: 24px;" />
+                    </a>
+                    <a href="https://www.youtube.com/watch?v=53PlvmZHA-E/" target="_blank" style="display: inline-block; margin: 0 6px; opacity: 0.7;">
+                        <img src="{{youtubeLogo}}" alt="YouTube" style="width: 24px; height: 24px;" />
+                    </a>
+                    <a href="https://www.linkedin.com/company/codewode/" target="_blank" style="display: inline-block; margin: 0 6px; opacity: 0.7;">
+                        <img src="{{linkedInLogo}}" alt="LinkedIn" style="width: 24px; height: 24px;" />
+                    </a>
+                </div>
+                <div style="font-size: 12px; color: #64748b; margin-top: 12px;"> 2025 QuickHired. All rights reserved.<br>Made with  for your career success.</div>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

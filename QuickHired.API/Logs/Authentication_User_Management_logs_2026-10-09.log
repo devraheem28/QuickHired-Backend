@@ -1,0 +1,22 @@
+[2026-10-09 13:46:28] [ERROR] [USER_LOGIN] Login attempt failed - Email not verified: abdulraheemnasirfarooqi24@gmail.com
+[2026-10-09 13:48:23] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-10-09 13:48:23] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-10-09 13:49:15] [ERROR] [USER_LOGIN] Login attempt failed - Invalid credentials for: abdulraheemnasirfarooqi24@gmail.com
+[2026-10-09 13:49:26] [ERROR] [USER_LOGIN] Login attempt failed - Invalid credentials for: abdulraheemnasirfarooqi24@gmail.com
+[2026-10-09 13:49:32] [ERROR] [USER_LOGIN] Login attempt failed - Invalid credentials for: abdulraheemnasirfarooqi24@gmail.com
+[2026-10-09 13:49:33] [ERROR] [USER_LOGIN] Login attempt failed - Invalid credentials for: abdulraheemnasirfarooqi24@gmail.com
+[2026-10-09 13:49:52] [INFO] [FORGOT_PASSWORD_EMAIL] Starting forgot password email send - To: abdulraheemnasirfarooqi24@gmail.com, User: Abdul Raheem
+[2026-10-09 13:49:52] [INFO] [FORGOT_PASSWORD_EMAIL] Looking for forgot password template at: C:\FYP\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\ForgetPasswordTemplates\ForgetPassword.html
+[2026-10-09 13:49:52] [INFO] [FORGOT_PASSWORD_EMAIL] Forgot password template found, processing content
+[2026-10-09 13:49:52] [INFO] [FORGOT_PASSWORD_EMAIL] Using base URL: https://localhost:44303, Reset link: http://localhost:4200/reset-password?token=CfDJ8Ld7aUO47ItMv0d7cHCtB8hZasKAkqr9V3akrT7pA72OQUrUjGUFoBYxPIpfjM59Yu4O2GnkMygCBZDnmChnwQr6a13A2Wlj19GwnsxgK6QvXFB4tGkBX8vMc%2B9YwxPHRpjAO9%2FVuxaOYh%2FSKWA5Yw1Sw36hkFHxgewsLFLEytPWz1eNCwiLsBVA0yxgs28cw7fFYXx8iZKl7TSCd1Ay6JrUVFLnFQqaE%2BLB7PPkyNTu&email=abdulraheemnasirfarooqi24%40gmail.com
+[2026-10-09 13:49:52] [INFO] [FORGOT_PASSWORD_EMAIL] Forgot password template processing completed, getting API key
+[2026-10-09 13:49:52] [INFO] [EMAIL] Loading SendGrid API key from config for environment: Development
+[2026-10-09 13:49:52] [INFO] [EMAIL] SendGrid API key loaded from configuration file
+[2026-10-09 13:49:52] [INFO] [FORGOT_PASSWORD_EMAIL] Forgot password email message created, sending via SendGrid
+[2026-10-09 13:49:54] [INFO] [FORGOT_PASSWORD_EMAIL] SendGrid response - Status: Accepted
+[2026-10-09 13:49:54] [SUCCESS] [FORGOT_PASSWORD_EMAIL] Forgot password email sent successfully
+[2026-10-09 13:53:07] [ERROR] [USER_LOGIN] Login attempt failed - Invalid credentials for: abdulraheemnasirfarooqi24@gmail.com
+[2026-10-09 13:53:20] [ERROR] [USER_LOGIN] Login attempt failed - Invalid credentials for: abdulraheemnasirfarooqi24@gmail.com
+[2026-10-09 13:53:21] [ERROR] [USER_LOGIN] Login attempt failed - Invalid credentials for: abdulraheemnasirfarooqi24@gmail.com
+[2026-10-09 13:53:22] [ERROR] [USER_LOGIN] Login attempt failed - Invalid credentials for: abdulraheemnasirfarooqi24@gmail.com
+[2026-10-09 13:53:46] [ERROR] [USER_LOGIN] Login attempt failed - Invalid credentials for: abdulraheemnasirfarooqi24@gmail.com

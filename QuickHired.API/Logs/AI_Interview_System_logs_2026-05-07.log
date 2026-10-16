@@ -1,0 +1,36 @@
+[2026-05-07 18:50:29] [INFO] [INTERVIEW_SUMMARY_EMAIL] Starting interview summary email send - To: wolfgym51@gmail.com, User: Gym, Company: jkdfa
+[2026-05-07 18:50:29] [INFO] [INTERVIEW_SUMMARY_EMAIL] Looking for template at: F:\Final_Year_Project\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\Interview\Summary.html
+[2026-05-07 18:50:29] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template found, processing content
+[2026-05-07 18:50:29] [INFO] [INTERVIEW_SUMMARY_EMAIL] Using base URL: https://localhost:44303
+[2026-05-07 18:50:29] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template processing completed, getting API key
+[2026-05-07 18:50:29] [INFO] [INTERVIEW_SUMMARY_EMAIL] Email subject: Interview Summary Report
+[2026-05-07 18:50:29] [INFO] [INTERVIEW_SUMMARY_EMAIL] Sending email via SendGrid
+[2026-05-07 18:50:30] [INFO] [INTERVIEW_SUMMARY_EMAIL] SendGrid response - Status: Accepted
+[2026-05-07 18:50:30] [SUCCESS] [INTERVIEW_SUMMARY_EMAIL] Interview summary email sent successfully
+[2026-05-07 18:50:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Starting interview summary email send - To: wolfgym51@gmail.com, User: Gym, Company: jkdfa
+[2026-05-07 18:50:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Looking for template at: F:\Final_Year_Project\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\Interview\Summary.html
+[2026-05-07 18:50:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template found, processing content
+[2026-05-07 18:50:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Using base URL: https://localhost:44303
+[2026-05-07 18:50:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template processing completed, getting API key
+[2026-05-07 18:50:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Email subject: Interview Summary Report
+[2026-05-07 18:50:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Sending email via SendGrid
+[2026-05-07 18:50:52] [INFO] [INTERVIEW_SUMMARY_EMAIL] SendGrid response - Status: Accepted
+[2026-05-07 18:50:52] [SUCCESS] [INTERVIEW_SUMMARY_EMAIL] Interview summary email sent successfully
+[2026-05-07 18:52:46] [INFO] [INTERVIEW_SUMMARY_EMAIL] Starting interview summary email send - To: wolfgym51@gmail.com, User: Gym, Company: dfsadfasdf
+[2026-05-07 18:52:46] [INFO] [INTERVIEW_SUMMARY_EMAIL] Looking for template at: F:\Final_Year_Project\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\Interview\Summary.html
+[2026-05-07 18:52:46] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template found, processing content
+[2026-05-07 18:52:46] [INFO] [INTERVIEW_SUMMARY_EMAIL] Using base URL: https://localhost:44303
+[2026-05-07 18:52:46] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template processing completed, getting API key
+[2026-05-07 18:52:46] [INFO] [INTERVIEW_SUMMARY_EMAIL] Email subject: Interview Summary Report
+[2026-05-07 18:52:46] [INFO] [INTERVIEW_SUMMARY_EMAIL] Sending email via SendGrid
+[2026-05-07 18:52:50] [INFO] [INTERVIEW_SUMMARY_EMAIL] SendGrid response - Status: Accepted
+[2026-05-07 18:52:50] [SUCCESS] [INTERVIEW_SUMMARY_EMAIL] Interview summary email sent successfully
+[2026-05-07 18:52:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Starting interview summary email send - To: wolfgym51@gmail.com, User: Gym, Company: dfsadfasdf
+[2026-05-07 18:52:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Looking for template at: F:\Final_Year_Project\QuickHired_Backend\QuickHired\QuickHired.API\wwwroot\EmailTemplates\Interview\Summary.html
+[2026-05-07 18:52:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template found, processing content
+[2026-05-07 18:52:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Using base URL: https://localhost:44303
+[2026-05-07 18:52:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Template processing completed, getting API key
+[2026-05-07 18:52:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Email subject: Interview Summary Report
+[2026-05-07 18:52:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] Sending email via SendGrid
+[2026-05-07 18:52:51] [INFO] [INTERVIEW_SUMMARY_EMAIL] SendGrid response - Status: Accepted
+[2026-05-07 18:52:51] [SUCCESS] [INTERVIEW_SUMMARY_EMAIL] Interview summary email sent successfully
